@@ -1,0 +1,77 @@
+.body {
+    background-image: url("/images/LoginBackground.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    border: 3px solid darkblue;
+    width: 50%;
+    padding: 5px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+legend {
+    font-style: normal;
+    font-weight: bold;
+}
+
+input:focus, fieldset:focus {
+    outline: solid 2px darkblue;
+    box-shadow: 0 0 5px black;
+    background-color: lightslategray;
+}
+
+textarea {
+    height: 10em;
+    width: 100%;
+    border: 2px solid darkblue;
+}
+
+h1 {
+    color: white;
+}
+
+.ph {
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    
+        max-width: 800px;
+        margin: 30px auto;
+        opacity: 1;
+        padding: 20px;
+        border-radius: 10px; 
+        background-size: cover;
+        background-position: center;   
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+header{
+    max-width: 1485px;
+}
