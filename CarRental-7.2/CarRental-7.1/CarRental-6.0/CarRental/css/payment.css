@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.checkout-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #444;
+}
+
+.order-summary {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #4cae4c;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .checkout-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
