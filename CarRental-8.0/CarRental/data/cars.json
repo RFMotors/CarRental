@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "image": "/images/BMWX5.png",
+        "name": "BMW X5",
+        "status": "AVAILABLE",
+        "year": "2023",
+        "engineType": "HYBRID-DIESEL",
+        "price": 70,
+        "bio": "bio"
+    },
+    {
+        "id": 2,
+        "image": "/images/ToyotaCorolla.png",
+        "name": "Toyota Corolla",
+        "status": "AVAILABLE",
+        "year": "2024",
+        "engineType": "PETROL",
+        "price": 25,
+        "bio": "#"
+    },
+    {
+        "id": 3,
+        "image": "/images/HondaCivic.png",
+        "name": "Honda Civic",
+        "status": "AVAILABLE",
+        "year": "2024",
+        "engineType": "PETROL",
+        "price": 50,
+        "bio": "#"
+    },
+    {
+        "id": 4,
+        "image": "/images/FordMustang.png",
+        "name": "Ford Mustang",
+        "status": "AVAILABLE",
+        "year": "2024",
+        "engineType": "PETROL",
+        "price": 60,
+        "bio": "#"
+    },
+    {
+        "id": 5,
+        "image": "/images/TeslaModel3.png",
+        "name": "Tesla Model 3",
+        "status": "AVAILABLE",
+        "year": "2022",
+        "engineType": "ELECTRIC",
+        "price": 65,
+        "bio": "#"
+    }
+]
