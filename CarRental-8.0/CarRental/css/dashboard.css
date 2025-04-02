@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background-image: url("../images/HomeBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.dashboard-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 40px auto;
+}
+
+.dashboard-options li {
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2471a3;
+}
+
+.logout {
+    background-color: #e74c3c;
+}
+
+.logout:hover {
+    background-color: #c0392b;
+}
