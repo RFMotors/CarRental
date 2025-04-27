@@ -1,0 +1,131 @@
+body {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #2a2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="month"],
+textarea,
+select {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #eee;
+}
+
+input[type="file"] {
+    color: #ddd;
+}
+.success-message {
+    background-color: #28a745;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-area .btn {
+    background-color: #0066ff;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button-area .btn:hover {
+    background-color: #0051cc;
+}
+
+button,
+.btn,
+.btn-submit {
+    background-color: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+.btn:hover,
+.btn-submit:hover {
+    background-color: #0044cc;
+}
+
+.success, .error {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.error {
+    background-color: #dc3545;
+    color: white;
+}
+
+a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+input[type="submit"] {
+    background: #007bff;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
